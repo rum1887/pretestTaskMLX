@@ -1,2 +1,2 @@
 # pretestTaskMLX
-Playing around with the mlx framework!
+Playing around with the MLX framework!
