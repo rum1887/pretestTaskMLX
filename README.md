@@ -12,4 +12,4 @@
 
 
 ### Troubleshooting
-1. If you updated your macOS and Xcode to Sonoma, yet the SDKs used during the build are of an older version, remove the CMake cache using rm CMakeCache.txt.
+1. If you updated your macOS and Xcode to Sonoma, yet the SDKs used during the build are of an older version, remove the CMake cache using ```rm CMakeCache.txt```.
