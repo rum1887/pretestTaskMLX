@@ -3,6 +3,7 @@
    <img width="1440" alt="mlxBuildLogs1" src="https://github.com/rum1887/pretestTaskMLX/assets/57267583/c7160026-12f5-433d-a8a0-61768c852f8d">
    ![mlxBuildLogs2](https://github.com/rum1887/pretestTaskMLX/assets/57267583/33800c6d-71cb-48ce-af6a-570699e969d6)
 2. Logistic and linear regression using the MLX C++ APIs. </br></br>
+
 <img width="1440" alt="Screenshot 2024-02-17 at 4 47 10 PM" src="https://github.com/rum1887/pretestTaskMLX/assets/57267583/1f2c814b-4414-44c6-8825-06632b8f313e">
    
 4. Speech recogntion using whisper in MLX (Python). </br></br>
