@@ -2,9 +2,9 @@
 1. Built and installed C++ API from source following the [MLX](https://ml-explore.github.io/mlx/build/html/install.html) documentation. Also installed the mlx binaries in Python from PyPI using</br> ```pip install mlx```</br></br>
    <img width="1440" alt="mlxBuildLogs1" src="https://github.com/rum1887/pretestTaskMLX/assets/57267583/c7160026-12f5-433d-a8a0-61768c852f8d">
    ![mlxBuildLogs2](https://github.com/rum1887/pretestTaskMLX/assets/57267583/33800c6d-71cb-48ce-af6a-570699e969d6)
-2. Ran logistic and linear regression examples in the [mlx repository](https://github.com/ml-explore/mlx/tree/main/examples/cpp) using the MLX C++ APIs.</br></br> Navigate to the build directory:</br></br>```cd build/examples/cpp```</br></br>And execute the executables in the dir:</br></br>```./tutorial```</br></br><img width="1440" alt="logistic regression final" src="https://github.com/rum1887/pretestTaskMLX/assets/57267583/f52f3c9b-e399-46db-8613-ead5e208de01">
+2. Ran logistic and linear regression examples in the [mlx repository](https://github.com/ml-explore/mlx/tree/main/examples/cpp) {MLX C++ APIs}.</br></br> Navigate to the build directory:</br></br>```cd build/examples/cpp```</br></br>And execute the executables in the dir:</br></br>```./tutorial```</br></br><img width="1440" alt="logistic regression final" src="https://github.com/rum1887/pretestTaskMLX/assets/57267583/f52f3c9b-e399-46db-8613-ead5e208de01">
    
-3. Speech recogntion using whisper in MLX Python APIs. </br></br>
+3. Speech recogntion using whisper in MLX {Python APIs}. </br></br>
    Modified the following [example](https://github.com/ml-explore/mlx-examples/tree/main/whisper) to transcribe a 3.2Mb, 0.18-second audio file ([harvard.wav](https://www.kaggle.com/datasets/pavanelisetty/sample-audio-files-for-speech-recognition)) using the Whisper model by OpenAI with the MLX backend in 0.65 seconds.</br></br>
    Steps to reproduce:</br> Download [transcribeScript.py](https://github.com/rum1887/pretestTaskMLX/blob/main/transcribeScript.py) and harvard.wav into the whisper directory created from following the example above.</br></br>
    To run the script:</br>
