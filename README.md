@@ -21,4 +21,4 @@
 7. API Server Example</br></br><img width="1440" alt="Screenshot 2024-02-17 at 6 03 54 PM" src="https://github.com/rum1887/pretestTaskMLX/assets/57267583/ce1a5ff1-3ca3-49a4-a5b3-5255b9474227">
 
 ### Troubleshooting
-1. If you updated your macOS and Xcode to Sonoma, yet the SDKs used during the build are of an older version, remove the CMake cache using ```rm CMakeCache.txt```.
+1. If you updated your macOS and Xcode to Sonoma, yet the SDKs used during the build are of an older version, remove the CMake cache using ```rm CMakeCache.txt``` and rebuild the project.
