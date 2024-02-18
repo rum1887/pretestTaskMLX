@@ -62,7 +62,7 @@ Kernel Version: Darwin 23.3.0
    <img width="1440" alt="Screenshot 2024-02-17 at 6 03 54 PM" src="https://github.com/rum1887/pretestTaskMLX/assets/57267583/ce1a5ff1-3ca3-49a4-a5b3-5255b9474227">
 
 ### Troubleshooting
-1. If you updated your macOS and Xcode to Sonoma, yet the SDKs used during the build are of an older version, remove the CMake cache using and rebuild the project.
+1. If you updated your macOS and Xcode to Sonoma, yet the SDKs used during the build are of an older version, remove the CMake cache in the build dir and rebuild the project.
    ```bash
    rm CMakeCache.txt
    ``` 
