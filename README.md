@@ -41,7 +41,7 @@ Kernel Version: Darwin 23.3.0
    ![wasmedge](https://github.com/rum1887/pretestTaskMLX/assets/57267583/38f0f2f9-8977-41f1-8099-94e84edc2016)
    
 5. Execution(1) llama.cpp  </br></br>
-   Modified this [example](https://github.com/second-state/WasmEdge-WASINN-examples/tree/master/wasmedge-ggml) to run "llama2 7b chat model in GGUF format" in WasmEdge</br></br><img width="1440" alt="llama" src="https://github.com/rum1887/pretestTaskMLX/assets/57267583/5cf10e24-8260-4458-bb1b-a51d6b606086">
+   Followed this [example](https://github.com/second-state/WasmEdge-WASINN-examples/tree/master/wasmedge-ggml) to run "llama2 7b chat model in GGUF format" in WasmEdge</br></br><img width="1440" alt="llama" src="https://github.com/rum1887/pretestTaskMLX/assets/57267583/5cf10e24-8260-4458-bb1b-a51d6b606086">
    
 6. Execution(2) API Server</br></br>
    Ran Mistral-7B-Instruct-v0.1 and created an OpenAI compatible API server for the model following this [guide](https://github.com/second-state/LlamaEdge/tree/main/api-server). Web UI:
