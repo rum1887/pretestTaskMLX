@@ -14,11 +14,9 @@
    ![wasmedge](https://github.com/rum1887/pretestTaskMLX/assets/57267583/38f0f2f9-8977-41f1-8099-94e84edc2016)
    
 6. llama.cpp Example </br></br>
-   Modified this [example](https://github.com/second-state/WasmEdge-WASINN-examples/tree/master/wasmedge-ggml) to run "llama2 7b chat model in GGUF format" in WasmEdge
-
+   Modified this [example](https://github.com/second-state/WasmEdge-WASINN-examples/tree/master/wasmedge-ggml) to run "llama2 7b chat model in GGUF format" in WasmEdge</br></br><img width="1440" alt="llama" src="https://github.com/rum1887/pretestTaskMLX/assets/57267583/5cf10e24-8260-4458-bb1b-a51d6b606086">
    
-   <img width="1440" alt="llama cppWasmEdge" src="https://github.com/rum1887/pretestTaskMLX/assets/57267583/26d62fd2-e033-4946-b85f-bdffef5bb89c">
-7. API Server Example</br></br><img width="1440" alt="Screenshot 2024-02-17 at 6 03 54 PM" src="https://github.com/rum1887/pretestTaskMLX/assets/57267583/ce1a5ff1-3ca3-49a4-a5b3-5255b9474227">
+8. API Server Example</br></br><img width="1440" alt="Screenshot 2024-02-17 at 6 03 54 PM" src="https://github.com/rum1887/pretestTaskMLX/assets/57267583/ce1a5ff1-3ca3-49a4-a5b3-5255b9474227">
 
 ### Troubleshooting
 1. If you updated your macOS and Xcode to Sonoma, yet the SDKs used during the build are of an older version, remove the CMake cache using ```rm CMakeCache.txt``` and rebuild the project.
