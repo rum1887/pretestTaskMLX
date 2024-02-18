@@ -9,12 +9,11 @@ Kernel Version: Darwin 23.3.0
 ```
 ### Framework execution
 
-1. Built and installed C++ API from source following the [MLX](https://ml-explore.github.io/mlx/build/html/install.html) documentation. Also installed the mlx binaries in Python from PyPI using</br></br>
+1. Built and installed C++ API from source following the [MLX](https://ml-explore.github.io/mlx/build/html/install.html) documentation. Also installed the mlx binaries in Python from PyPI using</br>
    ```python
    pip install mlx
    ```
-   </br></br>
-   <img width="1440" alt="mlxBuildLogs1" src="https://github.com/rum1887/pretestTaskMLX/assets/57267583/c7160026-12f5-433d-a8a0-61768c852f8d">
+   <img width="1440" alt="mlxBuildLogs1" src="https://github.com/rum1887/pretestTaskMLX/assets/57267583/c7160026-12f5-433d-a8a0-61768c852f8d"></br>
    ![mlxBuildLogs2](https://github.com/rum1887/pretestTaskMLX/assets/57267583/33800c6d-71cb-48ce-af6a-570699e969d6)
 3. Ran logistic and linear regression examples in the [mlx repository](https://github.com/ml-explore/mlx/tree/main/examples/cpp) {MLX C++ APIs}.</br></br>Navigate to the build directory:
    ```bash
