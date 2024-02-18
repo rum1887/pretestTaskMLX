@@ -19,7 +19,7 @@ Kernel Version: Darwin 23.3.0
 
    Steps to reproduce:
 
-   Download the modified_linear_regression.cpp, modified_logistic regression.cpp and CMakeLists.txt from my repo into cpp examples folder.
+   Download the [modified_linear_regression.cpp](https://github.com/rum1887/pretestTaskMLX/blob/main/modified_linear_regression.cpp), [modified_logistic_regression.cpp](https://github.com/rum1887/pretestTaskMLX/blob/main/modified_logistic_regression.cpp) and [CMakeLists.txt](https://github.com/rum1887/pretestTaskMLX/blob/main/CMakeLists.txt) from my repo into cpp examples folder.
    ```bash
    cd mlx/examples/cpp
    ```
