@@ -11,6 +11,8 @@
    ```python3 transcribeScript.py``` 
    
    <img width="1139" alt="MLXWhisperSpeechRecognition" src="https://github.com/rum1887/pretestTaskMLX/assets/57267583/db57d4ae-6322-4a81-b6a1-97457aed7497">
+   
+---
 
 5. Built WasmEdge with llama.cpp plugin by following this [guide](https://wasmedge.org/docs/contribute/source/plugin/wasi_nn/#build-wasmedge-with-wasi-nn-llamacpp-backend).
 
