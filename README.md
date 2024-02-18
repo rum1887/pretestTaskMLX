@@ -2,7 +2,7 @@
 1. Built and installed C++ API from source following the [MLX](https://ml-explore.github.io/mlx/build/html/install.html) documentation. Also installed the mlx binaries in Python from PyPI using</br> ```pip install mlx```</br></br>
    <img width="1440" alt="mlxBuildLogs1" src="https://github.com/rum1887/pretestTaskMLX/assets/57267583/c7160026-12f5-433d-a8a0-61768c852f8d">
    ![mlxBuildLogs2](https://github.com/rum1887/pretestTaskMLX/assets/57267583/33800c6d-71cb-48ce-af6a-570699e969d6)
-2. Ran Logistic and linear regression examples in the [mlx repository](https://github.com/ml-explore/mlx/tree/main/examples/cpp) using the MLX C++ APIs. </br></br><img width="1440" alt="logistic regression final" src="https://github.com/rum1887/pretestTaskMLX/assets/57267583/f52f3c9b-e399-46db-8613-ead5e208de01">
+2. Ran logistic and linear regression examples in the [mlx repository](https://github.com/ml-explore/mlx/tree/main/examples/cpp) using the MLX C++ APIs.</br></br> Navigate to the build directory:</br></br>```cd build/examples/cpp```</br></br>And execute the executables in the dir:</br></br>```./tutorial```</br></br><img width="1440" alt="logistic regression final" src="https://github.com/rum1887/pretestTaskMLX/assets/57267583/f52f3c9b-e399-46db-8613-ead5e208de01">
    
 3. Speech recogntion using whisper in MLX Python APIs. </br></br>
    Modified the following [example](https://github.com/ml-explore/mlx-examples/tree/main/whisper) to transcribe a 3.2Mb, 0.18-second audio file ([harvard.wav](https://www.kaggle.com/datasets/pavanelisetty/sample-audio-files-for-speech-recognition)) using the Whisper model by OpenAI with the MLX backend in 0.65 seconds.</br></br>
@@ -20,7 +20,7 @@
    Modified this [example](https://github.com/second-state/WasmEdge-WASINN-examples/tree/master/wasmedge-ggml) to run "llama2 7b chat model in GGUF format" in WasmEdge</br></br><img width="1440" alt="llama" src="https://github.com/rum1887/pretestTaskMLX/assets/57267583/5cf10e24-8260-4458-bb1b-a51d6b606086">
    
 8. Example(2) API Server</br></br>
-   Ran Mistral-7B-Instruct-v0.1 and created an OpenAI compatible API server for the model from the [guide](https://github.com/second-state/LlamaEdge/tree/main/api-server).
+   Ran Mistral-7B-Instruct-v0.1 and created an OpenAI compatible API server for the model following this [guide](https://github.com/second-state/LlamaEdge/tree/main/api-server).
    
    <img width="1440" alt="Screenshot 2024-02-17 at 6 03 54 PM" src="https://github.com/rum1887/pretestTaskMLX/assets/57267583/ce1a5ff1-3ca3-49a4-a5b3-5255b9474227">
 
