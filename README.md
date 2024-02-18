@@ -15,7 +15,7 @@ Kernel Version: Darwin 23.3.0
    ```
    <img width="1440" alt="mlxBuildLogs1" src="https://github.com/rum1887/pretestTaskMLX/assets/57267583/c7160026-12f5-433d-a8a0-61768c852f8d"></br>
    ![mlxBuildLogs2](https://github.com/rum1887/pretestTaskMLX/assets/57267583/33800c6d-71cb-48ce-af6a-570699e969d6)
-3. Regression Example {MLX C++ APIs}.</br></br> Modified logistic and linear regression files in the [mlx repository](https://github.com/ml-explore/mlx/tree/main/examples/cpp) ( Calculated elapsed time).
+3. Regression Example in MLX {C++ APIs}.</br></br> Modified logistic and linear regression files in the [mlx repository](https://github.com/ml-explore/mlx/tree/main/examples/cpp) ( Calculated elapsed time).
 
    Steps to reproduce:
 
