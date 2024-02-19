@@ -25,8 +25,9 @@ Kernel Version: Darwin 23.3.0
    ```bash
    cd mlx/examples/cpp
    ```
-   Rebuild the project using
+   Rebuild the project in the root directory mlx using
    ```bash
+   mkdir -p build && cd build
    cmake .. && make -j
    ```
 
