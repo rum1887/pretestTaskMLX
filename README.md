@@ -50,19 +50,19 @@ Kernel Version: Darwin 23.3.0
    <img width="1139" alt="MLXWhisperSpeechRecognition" src="https://github.com/rum1887/pretestTaskMLX/assets/57267583/db57d4ae-6322-4a81-b6a1-97457aed7497">
    
 ---
-
-4. Built WasmEdge with llama.cpp plugin by following this [guide](https://wasmedge.org/docs/contribute/source/plugin/wasi_nn/#build-wasmedge-with-wasi-nn-llamacpp-backend).
+### Section(2)
+1. Built WasmEdge with llama.cpp plugin by following this [guide](https://wasmedge.org/docs/contribute/source/plugin/wasi_nn/#build-wasmedge-with-wasi-nn-llamacpp-backend).
 
    ![wasmedge](https://github.com/rum1887/pretestTaskMLX/assets/57267583/38f0f2f9-8977-41f1-8099-94e84edc2016)
    
-5. Execution(1) llama.cpp  </br></br>
+2. Execution(1) llama.cpp  </br></br>
    Followed this [example](https://github.com/second-state/WasmEdge-WASINN-examples/tree/master/wasmedge-ggml) to run "llama2 7b chat model in GGUF format" in WasmEdge</br></br><img width="1440" alt="llama" src="https://github.com/rum1887/pretestTaskMLX/assets/57267583/5cf10e24-8260-4458-bb1b-a51d6b606086">
    
-6. Execution(2) API Server</br></br>
+3. Execution(2) API Server</br></br>
    Chose "Mistral-7B-Instruct-v0.1" to run and created an OpenAI compatible API server for the model following this [guide](https://github.com/second-state/LlamaEdge/tree/main/api-server). Web UI:
    
    <img width="1440" alt="Screenshot 2024-02-17 at 6 03 54 PM" src="https://github.com/rum1887/pretestTaskMLX/assets/57267583/ce1a5ff1-3ca3-49a4-a5b3-5255b9474227">
-
+---
 ### Troubleshooting
 1. If you updated your macOS and Xcode to Sonoma, yet the SDKs used during the build are of an older version, remove the CMake cache in the build dir and rebuild the project.
    ```bash
