@@ -15,11 +15,12 @@ Kernel Version: Darwin 23.3.0
    ```
    <img width="1440" alt="mlxBuildLogs1" src="https://github.com/rum1887/pretestTaskMLX/assets/57267583/c7160026-12f5-433d-a8a0-61768c852f8d"></br>
    ![mlxBuildLogs2](https://github.com/rum1887/pretestTaskMLX/assets/57267583/33800c6d-71cb-48ce-af6a-570699e969d6)
-3. Regression Example in MLX {C++ APIs}.</br></br> Modified logistic and linear regression files in the [mlx repository](https://github.com/ml-explore/mlx/tree/main/examples/cpp) ( Calculated elapsed time).
+2. Regression Example in MLX {C++ APIs}.</br></br> Modified logistic and linear regression files in the [mlx repository]([https://github.com/ml-explore/mlx/tree/main/examples/cpp](https://github.com/rum1887/mlx/tree/cppexamples)) ( Calculated elapsed time).
 
    Steps to reproduce:
 
-   Download the [modified_linear_regression.cpp](https://github.com/rum1887/pretestTaskMLX/blob/main/modified_linear_regression.cpp), [modified_logistic_regression.cpp](https://github.com/rum1887/pretestTaskMLX/blob/main/modified_logistic_regression.cpp) and [CMakeLists.txt](https://github.com/rum1887/pretestTaskMLX/blob/main/CMakeLists.txt) from my repo into cpp examples folder. Was just playing around and had not forked mlx, so didn't push it as a commit.
+   Clone the following [repository](https://github.com/rum1887/mlx/tree/cppexamples) and re-build the project or download the modified files ([modified_linear_regression.cpp](https://github.com/rum1887/pretestTaskMLX/blob/main/modified_linear_regression.cpp), [modified_logistic_regression](https://github.com/rum1887/pretestTaskMLX/blob/main/modified_logistic_regression.cpp)) and the [CMakeLists.txt](https://github.com/rum1887/pretestTaskMLX/blob/main/CMakeLists.txt) into the examples folder.
+   Navigate to the examples folder.
    
    ```bash
    cd mlx/examples/cpp
@@ -39,7 +40,7 @@ Kernel Version: Darwin 23.3.0
    ```
    <img width="1440" alt="modified_regression" src="https://github.com/rum1887/pretestTaskMLX/assets/57267583/34287bd5-9628-4d1f-be35-c0f485146573">
    
-5. Speech recogntion using whisper in MLX {Python APIs}. </br></br>
+3. Speech recogntion using whisper in MLX {Python APIs}. </br></br>
    Modified the following [example](https://github.com/ml-explore/mlx-examples/tree/main/whisper) to transcribe a 3.2Mb, 0.18-second audio file ([harvard.wav](https://www.kaggle.com/datasets/pavanelisetty/sample-audio-files-for-speech-recognition)) using the Whisper model by OpenAI with the MLX backend in 0.65 seconds.</br></br>
    Steps to reproduce:</br> Download [transcribeScript.py](https://github.com/rum1887/pretestTaskMLX/blob/main/transcribeScript.py) and harvard.wav into the whisper directory created from following the example above.</br></br>
    To run the script:</br>
