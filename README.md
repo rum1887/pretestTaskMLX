@@ -19,7 +19,8 @@ Kernel Version: Darwin 23.3.0
 
    Steps to reproduce:
 
-   Download the [modified_linear_regression.cpp](https://github.com/rum1887/pretestTaskMLX/blob/main/modified_linear_regression.cpp), [modified_logistic_regression.cpp](https://github.com/rum1887/pretestTaskMLX/blob/main/modified_logistic_regression.cpp) and [CMakeLists.txt](https://github.com/rum1887/pretestTaskMLX/blob/main/CMakeLists.txt) from my repo into cpp examples folder.
+   Download the [modified_linear_regression.cpp](https://github.com/rum1887/pretestTaskMLX/blob/main/modified_linear_regression.cpp), [modified_logistic_regression.cpp](https://github.com/rum1887/pretestTaskMLX/blob/main/modified_logistic_regression.cpp) and [CMakeLists.txt](https://github.com/rum1887/pretestTaskMLX/blob/main/CMakeLists.txt) from my repo into cpp examples folder. Was just playing around and had not forked mlx, so didn't push it as a commit.
+   
    ```bash
    cd mlx/examples/cpp
    ```
@@ -57,7 +58,7 @@ Kernel Version: Darwin 23.3.0
    Followed this [example](https://github.com/second-state/WasmEdge-WASINN-examples/tree/master/wasmedge-ggml) to run "llama2 7b chat model in GGUF format" in WasmEdge</br></br><img width="1440" alt="llama" src="https://github.com/rum1887/pretestTaskMLX/assets/57267583/5cf10e24-8260-4458-bb1b-a51d6b606086">
    
 6. Execution(2) API Server</br></br>
-   Ran Mistral-7B-Instruct-v0.1 and created an OpenAI compatible API server for the model following this [guide](https://github.com/second-state/LlamaEdge/tree/main/api-server). Web UI:
+   Chose "Mistral-7B-Instruct-v0.1" to run and created an OpenAI compatible API server for the model following this [guide](https://github.com/second-state/LlamaEdge/tree/main/api-server). Web UI:
    
    <img width="1440" alt="Screenshot 2024-02-17 at 6 03 54 PM" src="https://github.com/rum1887/pretestTaskMLX/assets/57267583/ce1a5ff1-3ca3-49a4-a5b3-5255b9474227">
 
