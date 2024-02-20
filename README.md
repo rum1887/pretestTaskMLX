@@ -19,7 +19,7 @@ Kernel Version: Darwin 23.3.0
 
    Steps to reproduce:
 
-   Clone the following [repository](https://github.com/rum1887/mlx/tree/cppexamples) and re-build the project or download the modified files ([modified_linear_regression.cpp](https://github.com/rum1887/pretestTaskMLX/blob/main/modified_linear_regression.cpp), [modified_logistic_regression](https://github.com/rum1887/pretestTaskMLX/blob/main/modified_logistic_regression.cpp)) and the [CMakeLists.txt](https://github.com/rum1887/pretestTaskMLX/blob/main/CMakeLists.txt) into the examples folder.
+   Clone my [fork](https://github.com/rum1887/mlx/tree/cppexamples) and re-build the project or download the modified files ([modified_linear_regression.cpp](https://github.com/rum1887/pretestTaskMLX/blob/main/modified_linear_regression.cpp), [modified_logistic_regression](https://github.com/rum1887/pretestTaskMLX/blob/main/modified_logistic_regression.cpp)) and the [CMakeLists.txt](https://github.com/rum1887/pretestTaskMLX/blob/main/CMakeLists.txt) into the examples folder.
    Navigate to the examples folder.
    
    ```bash
